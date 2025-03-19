@@ -1,0 +1,14 @@
+[package]
+name = "disas"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+anyhow = "1.0.97"
+clap = { version = "4.5.32", features = ["derive"] }
+kust = "0.0.2"
+mktemp = "0.5.1"
+object = "0.36.7"
+ratatui = { version = "0.29.0", features = ["all-widgets"] }
+tui-textarea = "0.7.0"
+zydis = "4.1.1"
