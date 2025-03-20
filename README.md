@@ -32,6 +32,7 @@ Options:
 
 #### Runtime dependencies
 - **as**: most systems should come with the GNU assembler, if they don't: install [binutils](https://sourceware.org/binutils/) or gcc as it depends on binutils.
+- **ld**: again, most systems come with the GNU linker, install binutils if you don't have it.
 #### Build dependencies
 - **Rust**: any somewhat recent compiler should work.
 
